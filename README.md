@@ -97,4 +97,10 @@ row #=> [" ", "X", " "]
 4. Run `learn` and read output and fix any errors.
 5. Submit your solution with `learn submit`.
 
+
+
+
+
+
+
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ttt-2-board-rb' title='Tic Tac Toe Board'>Tic Tac Toe Board</a> on Learn.co and start learning to code for free.</p>
