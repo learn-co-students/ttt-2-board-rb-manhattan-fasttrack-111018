@@ -22,29 +22,6 @@ A Tic Tac Toe board is basically a 3x3 grid with 9 total positions. You could th
  4 | 5 | 6
 -----------   
  7 | 8 | 9
-```
-
-Each cell in the Tic Tac Toe board can thus be referred to by a simple single number identifier. The middle square would be referred to as `5`.
-
-This is super useful because it will eventually allow players to easily tell the program where they want to move. The player X could tell the program they want to move to the top left corner by saying "1". The board would represent that graphically (through ASCII) via:
-
-```
- X |   |
------------      
-   |   |
------------   
-   |   |
-```
-
-ASCII just means using standard keyboard characters, also known as the ASCII character set, to draw graphics.
-
-An ASCII Cat:
-
-```
-/\     /\
-{  `---'  }
-{  O   O  }
-~~>  V  <~~
  \  \|/  /
   `-----'__
   /     \  `^\_
@@ -84,7 +61,30 @@ row #=> [" ", "X", " "]
 
 *Remember: Represent a position in the board array as a string with a space in it: `" "`*
 
-## Objectives
+## Objective
+```
+
+Each cell in the Tic Tac Toe board can thus be referred to by a simple single number identifier. The middle square would be referred to as `5`.
+
+This is super useful because it will eventually allow players to easily tell the program where they want to move. The player X could tell the program they want to move to the top left corner by saying "1". The board would represent that graphically (through ASCII) via:
+
+```
+ X |   |
+-----------      
+   |   |
+-----------   
+   |   |
+```
+
+ASCII just means using standard keyboard characters, also known as the ASCII character set, to draw graphics.
+
+An ASCII Cat:
+
+```
+/\     /\
+{  `---'  }
+{  O   O  }
+~~>  V  <~~s
 
 1. Define a local variable `board`.
 2. Assign `board` to an array with 9 string elements.
